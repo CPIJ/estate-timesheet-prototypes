@@ -1,0 +1,20 @@
+﻿<Window x:Class="Estate.Timesheet.Reminders.GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Estate.Timesheet.Reminders.GUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox SelectedItem="Binding Path=SelectedItem, Mode TwoWay" Name="LbxScheduledEvents" HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="147" SelectionChanged="LbxScheduledEvents_SelectionChanged"/>
+        <Label FontWeight="Bold" Content="Title" HorizontalAlignment="Left" Margin="162,10,0,0" VerticalAlignment="Top"/>
+        <Label Name="LblTitle" Content="..." HorizontalAlignment="Left" Margin="162,26,0,0" VerticalAlignment="Top"/>
+        <Label FontWeight="Bold" Content="Scheduled Time" HorizontalAlignment="Left" Margin="162,59,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LblScheduledTime" Content="..." HorizontalAlignment="Left" Margin="162,75,0,0" VerticalAlignment="Top"/>
+        <Label FontWeight="Bold" Content="Time Until&#xD;&#xA;" HorizontalAlignment="Left" Margin="162,108,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LbltimeUntil" Content="..." HorizontalAlignment="Left" Margin="162,124,0,0" VerticalAlignment="Top"/>
+        <Label FontWeight="Bold" Content="Times executed" HorizontalAlignment="Left" Margin="162,161,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LblTimesExecuted" Content="..." HorizontalAlignment="Left" Margin="162,177,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

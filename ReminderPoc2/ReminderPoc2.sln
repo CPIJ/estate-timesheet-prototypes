@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estate.Timesheet.Reminders.Logic", "Estate.Timesheet.Reminders.Logic\Estate.Timesheet.Reminders.Logic.csproj", "{AAA7ADA4-2186-43DE-9732-FBE670090C37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estate.Timesheet.Reminders.Service", "Estate.Timesheet.Reminders.Service\Estate.Timesheet.Reminders.Service.csproj", "{02132B39-1622-4D3F-B8C9-8A01E7FC2CBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estate.Timesheet.Reminders.GUI", "Estate.Timesheet.Reminders.GUI\Estate.Timesheet.Reminders.GUI.csproj", "{0F8EF6F5-0F69-4D51-80D1-1FD155CD5825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estate.Timesheet.Reminders.IoC", "Estate.Timesheet.Reminders.IoC\Estate.Timesheet.Reminders.IoC.csproj", "{C38755E3-48B3-41E6-8D95-78B31FC7B6A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estate.Timesheet.Reminders.CLI", "Estate.Timesheet.Reminders.CLI\Estate.Timesheet.Reminders.CLI.csproj", "{6588BB13-A66F-4D2D-85E1-64764CD43525}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAA7ADA4-2186-43DE-9732-FBE670090C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA7ADA4-2186-43DE-9732-FBE670090C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA7ADA4-2186-43DE-9732-FBE670090C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA7ADA4-2186-43DE-9732-FBE670090C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02132B39-1622-4D3F-B8C9-8A01E7FC2CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02132B39-1622-4D3F-B8C9-8A01E7FC2CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02132B39-1622-4D3F-B8C9-8A01E7FC2CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02132B39-1622-4D3F-B8C9-8A01E7FC2CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F8EF6F5-0F69-4D51-80D1-1FD155CD5825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8EF6F5-0F69-4D51-80D1-1FD155CD5825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8EF6F5-0F69-4D51-80D1-1FD155CD5825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8EF6F5-0F69-4D51-80D1-1FD155CD5825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C38755E3-48B3-41E6-8D95-78B31FC7B6A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38755E3-48B3-41E6-8D95-78B31FC7B6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38755E3-48B3-41E6-8D95-78B31FC7B6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38755E3-48B3-41E6-8D95-78B31FC7B6A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6588BB13-A66F-4D2D-85E1-64764CD43525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6588BB13-A66F-4D2D-85E1-64764CD43525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6588BB13-A66F-4D2D-85E1-64764CD43525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6588BB13-A66F-4D2D-85E1-64764CD43525}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21ABD823-C74F-476D-9347-D569DB47DA33}
+	EndGlobalSection
+EndGlobal
